@@ -1,0 +1,51 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin: 0 auto;
+  padding: 1%;
+  border-bottom: 2px solid #ddd;
+}
+
+.rightchild{
+  width: 45%;
+  padding: 1%;
+  margin:1%;
+  text-align: right;
+}
+.leftchild{
+  /* width: 40%; */
+  height: auto;
+}
+
+.banner{
+width:100%;
+height: auto;
+
+}
+.banner img{
+  width: 100%;
+  height: auto;
+}
+
+.cars{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card{
+  width: 25%;
+  border: 1px solid #ddd;
+  padding: 1%;
+  margin: 1%;
+}
+
+.card img{
+  width: 100%;
+  height: auto;
+}
+
+h3{
+  text-align: center;
+}
